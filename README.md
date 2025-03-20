@@ -1,6 +1,5 @@
 # house-price-prediction
 
-# House Price Prediction
 
 This repository contains a Jupyter Notebook for analyzing and preprocessing house price data. The project includes data cleaning, feature scaling, and visualization to prepare the dataset for machine learning models.
 
