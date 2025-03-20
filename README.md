@@ -1,40 +1,39 @@
-# house-price-prediction
+# House Price Data Cleaning & Scaling
 
+## Project Overview
+This project focuses on data cleaning and feature scaling for a housing dataset. The primary objective is to preprocess the `LotArea` feature using standardization techniques to improve the performance of machine learning models.
 
-This repository contains a Jupyter Notebook for analyzing and preprocessing house price data. The project includes data cleaning, feature scaling, and visualization to prepare the dataset for machine learning models.
+## Key Features
+- **Data Cleaning:** Handling missing values, outliers, and inconsistencies in the dataset.
+- **Feature Scaling:** Applying standardization to normalize numerical features.
+- **Visualization:** KDE plots to compare data distribution before and after scaling.
 
-## 📂 Project Structure
+## Project Structure
 ```
-House_price.ipynb  # Jupyter Notebook for data analysis
-cleaned_train.csv  # Cleaned dataset for training
-README.md          # Project documentation
-```
-
-## 📊 Dataset
-- The dataset contains house features, including `LotArea` and other numerical/categorical attributes.
-- Preprocessing includes handling missing values, scaling, and visualization.
-
-## 🚀 Getting Started
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/YOUR_USERNAME/house-price-prediction.git
-cd house-price-prediction
+├── data
+│   ├── cleaned_train.csv   # Cleaned dataset
+├── notebooks
+│   ├── House_price.ipynb   # Jupyter Notebook for preprocessing and visualization
+├── README.md               # Project documentation
 ```
 
-### 2️⃣ Install Dependencies
-```bash
-pip install pandas numpy seaborn matplotlib scikit-learn
-```
+## Installation & Setup
+1. Clone the repository:
+   ```bash
+   git clone <your-repository-link>
+   cd House-Price-Analysis
+   ```
+2. Install required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Open Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+4. Run `House_price.ipynb` to preprocess the data and visualize results.
 
-### 3️⃣ Run the Jupyter Notebook
-```bash
-jupyter notebook
-```
-
-## 📈 Key Features
-✅ Data cleaning and preprocessing  
-✅ Feature scaling (Standardization & Normalization)  
-✅ KDE plots to visualize distributions before & after scaling  
-✅ Ready-to-use dataset for Machine Learning models  
-
+## Results
+- The dataset has been standardized, ensuring improved model performance.
+- KDE plots illustrate the distribution changes after scaling.
 
